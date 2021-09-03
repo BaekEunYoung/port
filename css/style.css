@@ -17,14 +17,14 @@ html{
     position: relative;
 }
 #navTop_box #logo {
-    width: 240px; overflow: hidden;
+    width: 250px;  overflow: hidden;
 }
 #navTop_box #logo>div {
     width: 80px; float: left; line-height: 70px;
 }
 #navTop_box #logo>span {
     display: inline-block; font-size: 14px;
-    position: relative; top: 30px; left: 10px;
+    position: relative; top: 30px; left: 5px;
 }
 #navTop_box #topMenu {
     position: absolute; right: 0; top: 0;
@@ -65,10 +65,13 @@ html{
     width: 80%;
     margin: auto;
     margin-top: 100px;
+    gap: 20px;
 }
 .pr_profile {
     flex: 1;
     padding-left: 60px;
+}.pr_profile div>img {
+    width: 250px; height: auto;
 }
 .pr_profile>ul {
     margin-top: 20px;
@@ -98,12 +101,14 @@ html{
 .pr_txt {
     line-height: 1.5;
     float: left;
-    padding-top: 20px;
+    _padding-top: 20px;
     padding-left: 10px;
 }
 .pr_txt>div {
     font-weight: bold;
 }
+
+
 .ct_inbox {
     padding: 20px;
     background: lightpink;
@@ -300,7 +305,7 @@ html{
     }
     #navTop_box #topMenu li>a.active {
         border-bottom: 0; padding: 4px;
-        background:#b3d0bc;
+        background:lightpink;
         color: #fff; border-radius: 5px;
     }
     /********** s0 앞표지 ************/
@@ -419,26 +424,91 @@ html{
     
     
     /*********** s2 포트폴리오 ********/
-    .slide {
-        flex-direction: column;
-        margin: 0px 67px;
-    }
-    .slide>.image {
-        width: 82%;
-        position: relative;
-        top: 5vh;
-    }
-    .slide .pf_txt_container {
-        position: relative;
-        top: 10vh;
-        width: 80%;
-    }
-    .pf_gosite {
-        margin-top: 30px;
-    }
-    .left_arrow, .right_arrow {
-        width: 30px;
-    }
- 
-}
 
+    .s2>h1 {
+
+        height: 50px;
+
+        line-height: 50px;
+
+        font-size: 23px;
+
+    }
+
+    .slide {
+
+        flex-direction: column;
+
+        margin: 0px 35px;
+
+    }
+
+    .slide>.image {
+
+        width: 82%;
+
+        position: relative;
+
+        top: 5vh;
+
+    }
+
+    .slide .pf_txt_container {
+
+        position: relative;
+
+        top: 10vh;
+
+        width: 80%;
+
+    }
+
+    .slide .pf_txt_container .pf_title {
+
+        height: 35px;
+
+        line-height: 35px;
+
+        font-size: 16px;
+
+    }
+
+    .slide .pf_txt_container table {
+
+        width: 95%;
+
+        margin: auto;
+
+        line-height: 1.5;
+
+        font-size: 13px;
+
+        margin-top: 10px;
+
+    }
+
+    .pf_gosite {
+
+        width: 50%;
+
+        margin: auto;
+
+        margin-top: 10px;
+
+    }
+
+    .pf_gosite a {
+
+        width: 100%;
+
+        padding: 10px 0;
+
+        font-size: 14px;
+
+    }
+
+    .left_arrow, .right_arrow {
+
+        width: 20px; top: 30%;
+
+    }

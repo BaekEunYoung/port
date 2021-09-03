@@ -73,7 +73,8 @@ html{
 .pr_profile {
     flex: 1;
     padding-left: 60px;
-}.pr_profile div>img {
+}
+.pr_profile div>img {
     width: 250px; height: auto;
 }
 .pr_profile>ul {

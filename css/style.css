@@ -22,6 +22,9 @@ html{
 #navTop_box #logo>div {
     width: 80px; float: left; line-height: 70px;
 }
+#navTop_box #logo>div>img {
+    width: 100%;
+}
 #navTop_box #logo>span {
     display: inline-block; font-size: 14px;
     position: relative; top: 30px; left: 5px;
